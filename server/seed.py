@@ -4,6 +4,10 @@ from random import choice as rc
 
 from faker import Faker
 
+import sys
+
+sys.path.append('/Users/winnie/python-p4-adding-react-to-flask/')
+
 from app import app
 from models import db, Message
 
